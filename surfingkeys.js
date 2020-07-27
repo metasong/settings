@@ -63,7 +63,7 @@ keyMaps = [
     ['sla', ';ql', true], // show last action
     // open
     ['oh', 'H', false], // open one tab history in new tab
-    ['os', ';e', true, '#11Open settings'],
+    ['os', ';e', true],
     ['oba', 'ga', true], // browser about
     ['obb', 'gb', true], // browser bookmark
     ['obc', 'gc', true], // browser cache
