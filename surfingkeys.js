@@ -1,5 +1,6 @@
 unmap('u'); // u is used for undo;
 /*
+https://raw.githubusercontent.com/metasong/settings/master/surfingkeys.js
  ** iteration in collection or tree
  **
  ** {: fist or root
@@ -15,6 +16,12 @@ unmap('u'); // u is used for undo;
  ** the prefix number for 'to' command is the object index in collection
  */
 keyMaps = [
+    ['<Alt-t>', '<Alt-s>', true], // toggle surfingKey
+    ['<Alt-s>', 'd', true], // down
+    ['<Alt-w>', 'e', true], // up
+    ['<Alt-a>', 'f'],
+    ['{i', 'gi', true],
+
     ['<F1>', '?', false],
     [']t', 'R', true],
     ['[t', 'E', true],
@@ -30,12 +37,6 @@ keyMaps = [
     ['|]', 'F', true], //  one tab history forward
     ['[u', 'gu', true],
     ['{u', 'gU', true],
-
-    ['<Alt-t>', '<Alt-s>', true], // toggle surfkey
-    ['<Alt-s>', 'd', true], // down
-    ['<Alt-w>', 'e', true], // up
-    ['<Alt-g>', 'f'],
-    ['{i', 'gi', true],
 
     // display hints
     ['dh', '<Ctrl-h>', true],
