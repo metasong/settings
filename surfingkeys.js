@@ -84,6 +84,7 @@ keyMaps = [
     ['c[', 'gxt', true],
     ['c]', 'gxT', true],
     ["c'", 'gxx', true],
+    ['ct', 'x', true], // close tab
 
     // move
     ['\\l', '<<', true],
@@ -105,7 +106,7 @@ keyMaps = [
 
     // undo, unset, clear
     ['uh', ';m', true], // hover
-    ['uc', 'X'], // undo tab close
+    ['uc', 'X', true], // undo tab close
 
     //reload, refresh, reset
     ['rr', 'r', true], // ctrl-r and F5
