@@ -73,7 +73,7 @@ keyMaps = [
     ['obe', 'ge', true], // browser extensions
     ['obn', 'gn', true], // browser net-internals
     ['obs', 'gs', true], // browser page source
-    ['obi', 'si', true], // browser inspect
+    ['obi', 'aj', true], // browser inspect
     ['om', 'sm', true], // markdown preview
     ['oo', 'go', true], // open url in current tab
 
