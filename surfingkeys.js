@@ -16,18 +16,18 @@ unmap('u'); // u is used for undo;
  */
 keyMaps = [
     ['<F1>', '?', false],
-    [']t', 'R', false],
-    ['[t', 'E', false],
+    [']t', 'R', true],
+    ['[t', 'E', true],
     ['{t', 'g0', true],
     ['|t', '<Ctrl-6>', true], // last used tab
     ['}t', 'g$', true],
     [']s', 'cs', true],
-    [']h', 'D', false],
-    ['[h', 'S', false],
+    [']h', 'D', true],
+    ['[h', 'S', true],
     ['|{', 'gT', true], // first actived tab
     ['|}', 'gt', true], // last actived tab
-    ['|[', 'B'], //  one tab history back
-    ['|]', 'F'], //  one tab history forward
+    ['|[', 'B', true], //  one tab history back
+    ['|]', 'F', true], //  one tab history forward
     ['[u', 'gu', true],
     ['{u', 'gU', true],
 
@@ -62,7 +62,7 @@ keyMaps = [
     ['sy', 'oy', true],
     ['sla', ';ql', true], // show last action
     // open
-    ['oh', 'H', false], // open one tab history in new tab
+    ['oh', 'H', true], // open one tab history in new tab
     ['os', ';e', true],
     ['oba', 'ga', true], // browser about
     ['obb', 'gb', true], // browser bookmark
@@ -75,7 +75,7 @@ keyMaps = [
     ['obs', 'gs', true], // browser page source
     ['obi', 'si', true], // browser inspect
     ['om', 'sm', true], // markdown preview
-    ['oo', 'go', false], // open url in current tab
+    ['oo', 'go', true], // open url in current tab
 
     // close
     ['cd', ';j', true], // close download shelf
@@ -89,7 +89,7 @@ keyMaps = [
     // move
     ['\\l', '<<', true],
     ['\\r', '>>', true],
-    ['\\o', 'W', false],
+    ['\\o', 'W', true],
 
     // copy(yank)
     ['ypf', 'yp', true], // yank form data for post
