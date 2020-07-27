@@ -34,6 +34,7 @@ keyMaps = [
     ['<Alt-t>', '<Alt-s>', true], // toggle surfkey
     ['<Alt-s>', 'd', true], // down
     ['<Alt-w>', 'e', true], // up
+    ['<Alt-a>', 'f'],
     ['{i', 'gi', true],
 
     // display hints
