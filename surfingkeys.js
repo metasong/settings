@@ -142,7 +142,7 @@ keyMaps.forEach(map => {
     rmap(map[0], map[1], map[2], undefined, map[3]);
 });
 
-imapkey("<Alt-a>", '#1Open a link', function () {
+imapkey("<Ctrl-Alt-a>", '#1Open a link', function () {
     Hints.create("", Hints.dispatchMouseClick, { tabbed: false, active: false });
 })
 
