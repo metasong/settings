@@ -64,6 +64,7 @@ keyMaps = [
     ['sy', 'oy', true],
     ['sla', ';ql', true], // show last action
     // open
+    ['oc', 'ox', true], // open recent closed tab
     ['oh', 'H', true], // open one tab history in new tab
     ['os', ';e', true],
     ['oba', 'ga', true], // browser about
